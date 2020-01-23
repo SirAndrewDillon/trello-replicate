@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import TrelloCreate from "./TrelloCreate";
 import { DragDropContext, Droppable } from "react-beautiful-dnd";
 import Routes from "../routes";
-import { sort } from "../actions";
+import { sort } from "../actions/listActions";
 
 class App extends PureComponent {
   render() {

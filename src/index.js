@@ -13,7 +13,7 @@ const { persistor, store } = Store();
 
 const GlobalStyle = createGlobalStyle`
   html {
-    background-color: linear-gradient(to right, #ffd89b, #19547b);
+    background-color: #a2ab58;
     box-sizing: border-box;
     transition: all 0.5s ease-in;
   }
